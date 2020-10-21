@@ -1,0 +1,106 @@
+{
+
+    "modules": {
+
+        "clementine": {
+            "interval": 10,
+            "attacker_ips": [""]
+        },
+
+        "tangerine": {
+            "req_limit": 99999,
+            "date": "",
+            "data_source": "",
+            "pool_size": 50,
+            "mode": "graph"
+        }
+
+    },
+
+    "kafka":{
+        "uri":"",
+        "port":"",
+        "subject":""
+    },
+
+    "hdfs":{
+
+        "uri":"",
+        "port": ""
+    },
+
+    "spark":{
+    
+        "uri":"",
+        "port": ""
+
+    },
+
+    "elastic": {
+        
+        "uri":"",
+        "port":""
+    }, 
+
+    "feeds": {
+        
+        "maltiverse":{
+            "email":"",
+            "password": ""
+        },
+
+        "hybridanalysis":{
+
+            "key":""
+        },
+
+        "zoomeye":{
+            "username": "", 
+            "password": ""
+        },
+
+        "censys":{
+            "uid":"",
+            "secret":""
+        },
+
+        "shodan":{
+            "key":""
+            
+        },
+        
+        "grey":{
+            "key":""
+        },
+
+        "otx":{
+            "key":""
+        },
+        
+        "abuseipdb":{
+            "key":""
+        },
+
+        "apility":{
+            "key":""
+        },
+
+        "ibm":{
+            "password":"",
+            "key":""
+        },
+
+        "vuldb":{
+            "key":""
+        },
+
+        "cymon":{
+            "user":"",
+            "pass":""
+        }
+        
+
+    }
+
+
+}

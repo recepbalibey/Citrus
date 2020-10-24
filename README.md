@@ -19,7 +19,7 @@ Citrus supports a variety of threat intelligence services to correlate suspect t
 * Apility
 * AbuseIPDB
 
-The relationships derived from these services are mapped into a graphical relationship using [NetworkX](https://networkx.github.io) library.
+The relationships derived from these services are mapped into a graphical representation using [NetworkX](https://networkx.github.io) library.
 Based upon these relationships and the formation of graph-based feature clusters, captured telemetry is labelled to contribute to an intrusion detection data set, [LUFlow '20](https://github.com/ruzzzzz/LUFlow). An example of the nodes and their corresponding labels is presented below:
 
 <p align="center">

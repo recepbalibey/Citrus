@@ -8,7 +8,7 @@ Citrus is composed of several inter-connected components, and the architecture i
   <img src="https://github.com/ruzzzzz/Citrus/blob/main/imgs/SBI.png?raw=true" alt="Citrus Overview" width="500">
 </p>
 
-Citrus supports a variety of threat intelligence services to correlate suspect telemetry including:
+Citrus supports a variety of cyber threat intelligence services to correlate and label suspect telemetry including:
 
 * Greynoise
 * Maltiverse

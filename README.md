@@ -1,3 +1,4 @@
+# Overview
 Citrus: an intrusion detection framework which is adept at tackling emerging threats through the collection and   
 labelling   of   live   attack   data,   as   well   as real-time classification of malicious behaviour via the utilisation of 
 machine learning  algorithms.
@@ -12,6 +13,7 @@ As illustrated, the Citrus architecture is composed of distinct components which
 
 The northernmost components represent the two modules implemented to aid CTI gathering and real time anomaly detection. Clementine is a component within Citrus which rapidly identifies malicious behaviour occurring within the local network through the utilisation of machine learning models. The Tangerine component within Citrus, performs automatic intrusion detection data set labelling through correlation with cyber threat intelligence service providers.
 
+# CTI Services
 Additionally, Citrus supports a variety of cyber threat intelligence services to correlate and label suspect telemetry including:
 
 * Greynoise

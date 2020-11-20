@@ -8,7 +8,11 @@ Citrus is composed of several inter-connected components, and the architecture i
   <img src="https://github.com/ruzzzzz/Citrus/blob/main/imgs/SBI.png?raw=true" alt="Citrus Overview" width="500">
 </p>
 
-Citrus supports a variety of cyber threat intelligence services to correlate and label suspect telemetry including:
+As illustrated, the Citrus architecture is composed of distinct components which interface with services deployed within the network, as well as remote services located on the Internet. The southernmost components within the figure represent these services which provide Citrus crucial input data necessary for its operation. Furthermore, they are also utilised for output operations, such as saving labelled telemetry to disk for future dissemination within the research community. 
+
+The northernmost components represent the two modules implemented to aid CTI gathering and real time anomaly detection. Clementine is a component within Citrus which rapidly identifies malicious behaviour occurring within the local network through the utilisation of machine learning models. The Tangerine component within Citrus, performs automatic intrusion detection data set labelling through correlation with cyber threat intelligence service providers.
+
+Additionally, Citrus supports a variety of cyber threat intelligence services to correlate and label suspect telemetry including:
 
 * Greynoise
 * Maltiverse

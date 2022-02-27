@@ -4,6 +4,9 @@ labelling   of   live   attack   data,   as   well   as real-time classification
 machine learning  algorithms.
 
 Citrus is composed of several inter-connected components, and the architecture is presented below:
+http://citrusframework.org/citrus/reference/html/index.html
+https://www.kaggle.com/mryanm/luflow-network-intrusion-detection-data-set?select=README.md
+https://www.kaggle.com/docxian/network-intrusion-detection-demo
 
 <p align="center">
   <img src="https://github.com/ruzzzzz/Citrus/blob/main/imgs/SBI.png?raw=true" alt="Citrus Overview" width="500">
